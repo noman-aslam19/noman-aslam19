@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="t d">
+  <title id="t">Tech stack: PHP, MySQL, Tailwind, JavaScript, HTML5, Git</title>
+  <desc id="d">Six floating isometric cubes, one per technology, labelled with name and role.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F5A0"/>
+      <stop offset="1" stop-color="#7B2FF7"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="900" height="350" rx="16" fill="url(#bg)"/>
+  <rect width="900" height="350" rx="16" fill="url(#dots)" opacity="0.7"/>
+  <rect x="0.75" y="0.75" width="898.5" height="348.5" rx="15.5" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <text x="40" y="44" font-family="'Courier New',monospace" font-weight="700" font-size="16" letter-spacing="3" fill="#00F5A0">&lt;TECH_STACK /&gt;</text>
+  <rect x="40" y="56" width="120" height="3" rx="1.5" fill="url(#line)"/>
+
+  <ellipse cx="90" cy="224" rx="40" ry="9" fill="#8892BF" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="40;30;40" dur="3.2s" begin="-0.00s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.35;0.15;0.35" dur="3.2s" begin="-0.00s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </ellipse>
+  <g transform="translate(90,144)">
+    <animateTransform attributeName="transform" type="translate" values="90 144;90 130;90 144" dur="3.2s" begin="-0.00s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#8892BF" fill-opacity="0.55" stroke="#8892BF" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#8892BF" fill-opacity="0.28" stroke="#8892BF" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 0,-54.0 -46.76,-27.0" fill="#8892BF" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1" stroke-linejoin="round"/>
+    <text transform="translate(0,-27.0) matrix(0.866,-0.5,0.866,0.5,0,0)" text-anchor="middle" dy="0.35em" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="15" fill="#0d1117">PHP</text>
+  </g>
+  <text x="90" y="256" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="15" fill="#e6edf3">PHP</text>
+  <text x="90" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9da7b3">Backend</text>
+  <ellipse cx="234" cy="224" rx="40" ry="9" fill="#00A6C7" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="40;30;40" dur="3.2s" begin="-0.55s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.35;0.15;0.35" dur="3.2s" begin="-0.55s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </ellipse>
+  <g transform="translate(234,144)">
+    <animateTransform attributeName="transform" type="translate" values="234 144;234 130;234 144" dur="3.2s" begin="-0.55s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#00A6C7" fill-opacity="0.55" stroke="#00A6C7" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#00A6C7" fill-opacity="0.28" stroke="#00A6C7" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 0,-54.0 -46.76,-27.0" fill="#00A6C7" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1" stroke-linejoin="round"/>
+    <text transform="translate(0,-27.0) matrix(0.866,-0.5,0.866,0.5,0,0)" text-anchor="middle" dy="0.35em" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="15" fill="#0d1117">SQL</text>
+  </g>
+  <text x="234" y="256" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="15" fill="#e6edf3">MySQL</text>
+  <text x="234" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9da7b3">Database</text>
+  <ellipse cx="378" cy="224" rx="40" ry="9" fill="#38BDF8" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="40;30;40" dur="3.2s" begin="-1.10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.35;0.15;0.35" dur="3.2s" begin="-1.10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </ellipse>
+  <g transform="translate(378,144)">
+    <animateTransform attributeName="transform" type="translate" values="378 144;378 130;378 144" dur="3.2s" begin="-1.10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#38BDF8" fill-opacity="0.55" stroke="#38BDF8" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#38BDF8" fill-opacity="0.28" stroke="#38BDF8" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 0,-54.0 -46.76,-27.0" fill="#38BDF8" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1" stroke-linejoin="round"/>
+    <text transform="translate(0,-27.0) matrix(0.866,-0.5,0.866,0.5,0,0)" text-anchor="middle" dy="0.35em" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="15" fill="#0d1117">TW</text>
+  </g>
+  <text x="378" y="256" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="15" fill="#e6edf3">Tailwind</text>
+  <text x="378" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9da7b3">Styling</text>
+  <ellipse cx="522" cy="224" rx="40" ry="9" fill="#F7DF1E" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="40;30;40" dur="3.2s" begin="-1.65s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.35;0.15;0.35" dur="3.2s" begin="-1.65s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </ellipse>
+  <g transform="translate(522,144)">
+    <animateTransform attributeName="transform" type="translate" values="522 144;522 130;522 144" dur="3.2s" begin="-1.65s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#F7DF1E" fill-opacity="0.55" stroke="#F7DF1E" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#F7DF1E" fill-opacity="0.28" stroke="#F7DF1E" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 0,-54.0 -46.76,-27.0" fill="#F7DF1E" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1" stroke-linejoin="round"/>
+    <text transform="translate(0,-27.0) matrix(0.866,-0.5,0.866,0.5,0,0)" text-anchor="middle" dy="0.35em" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="15" fill="#0d1117">JS</text>
+  </g>
+  <text x="522" y="256" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="15" fill="#e6edf3">JavaScript</text>
+  <text x="522" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9da7b3">Frontend logic</text>
+  <ellipse cx="666" cy="224" rx="40" ry="9" fill="#F06529" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="40;30;40" dur="3.2s" begin="-2.20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.35;0.15;0.35" dur="3.2s" begin="-2.20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </ellipse>
+  <g transform="translate(666,144)">
+    <animateTransform attributeName="transform" type="translate" values="666 144;666 130;666 144" dur="3.2s" begin="-2.20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#F06529" fill-opacity="0.55" stroke="#F06529" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#F06529" fill-opacity="0.28" stroke="#F06529" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 0,-54.0 -46.76,-27.0" fill="#F06529" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1" stroke-linejoin="round"/>
+    <text transform="translate(0,-27.0) matrix(0.866,-0.5,0.866,0.5,0,0)" text-anchor="middle" dy="0.35em" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="12" fill="#0d1117">HTML</text>
+  </g>
+  <text x="666" y="256" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="15" fill="#e6edf3">HTML5</text>
+  <text x="666" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9da7b3">Markup</text>
+  <ellipse cx="810" cy="224" rx="40" ry="9" fill="#F05032" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="40;30;40" dur="3.2s" begin="-2.75s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.35;0.15;0.35" dur="3.2s" begin="-2.75s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </ellipse>
+  <g transform="translate(810,144)">
+    <animateTransform attributeName="transform" type="translate" values="810 144;810 130;810 144" dur="3.2s" begin="-2.75s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 -46.76,-27.0 -46.76,27.0 0,54" fill="#F05032" fill-opacity="0.55" stroke="#F05032" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#0d1117"/>
+    <polygon points="0,0 46.76,-27.0 46.76,27.0 0,54" fill="#F05032" fill-opacity="0.28" stroke="#F05032" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="0,0 46.76,-27.0 0,-54.0 -46.76,-27.0" fill="#F05032" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1" stroke-linejoin="round"/>
+    <text transform="translate(0,-27.0) matrix(0.866,-0.5,0.866,0.5,0,0)" text-anchor="middle" dy="0.35em" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="15" fill="#0d1117">GIT</text>
+  </g>
+  <text x="810" y="256" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="15" fill="#e6edf3">Git</text>
+  <text x="810" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#9da7b3">Version control</text>
+</svg>
