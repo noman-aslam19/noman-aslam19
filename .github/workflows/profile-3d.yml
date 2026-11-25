@@ -1,27 +1,46 @@
-name: GitHub-Profile-3D-Contrib
+name: Profile-Graphics
 
 on:
   schedule:
     - cron: "0 18 * * *"   # daily, 18:00 UTC
-  workflow_dispatch:        # allows manual "Run workflow"
+  workflow_dispatch:        # manual "Run workflow" button
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    name: generate-profile-graphics
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+
+      # Snake that eats your contribution graph (Platane/snk)
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?color_snake=#a78bfa&color_dots=#161b22,#0e4f5c,#0891b2,#22d3ee,#a5f3fc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 3D contribution calendar (yoshi389111/github-profile-3d-contrib)
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
       - name: Commit generated images
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "Update 3D contribution graph" || echo "No changes to commit"
+          git commit -m "Update profile graphics" || echo "No changes to commit"
           git push
