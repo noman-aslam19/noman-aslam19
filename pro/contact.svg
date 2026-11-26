@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="132" viewBox="0 0 900 132" role="img" aria-labelledby="t d">
+<title id="t">Let&#x27;s build something solid.</title><desc id="d">Questions, ideas or a project in mind? Say hello.</desc>
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8c8c8c"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.38"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="fadeB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050505" stop-opacity="0"/><stop offset="1" stop-color="#050505" stop-opacity="1"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0333;0.1333;1" dur="3.0s" begin="0s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.0333;0.1333;1" dur="3.0s" begin="0s" fill="freeze"/>
+<rect x="391.8" y="8" width="116.4" height="30" rx="15.0" fill="#0d0d0d" stroke="#3a3a3a"/><circle cx="408.79" cy="23.0" r="3" fill="#fafafa"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="422.8" y="27.7" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#b8b8b8">CONTACT</text>
+<text x="450" y="84" text-anchor="middle" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="38" fill="url(#tg)">Let&#x27;s build something solid.</text>
+<text x="450" y="116" text-anchor="middle" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#b8b8b8">Questions, ideas or a project in mind? Say hello.</text>
+</g>
+</svg>

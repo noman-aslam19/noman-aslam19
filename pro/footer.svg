@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="116" viewBox="0 0 900 116" role="img" aria-labelledby="t d">
+<title id="t">Footer</title><desc id="d">Muhammad Noman, Full Stack Developer. Thanks for stopping by.</desc>
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8c8c8c"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.38"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="fadeB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050505" stop-opacity="0"/><stop offset="1" stop-color="#050505" stop-opacity="1"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="0" y="10" width="900" height="1" fill="#242424"/>
+<text x="450" y="52" text-anchor="middle" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="17" fill="#fafafa">Muhammad Noman</text>
+<text x="450" y="76" text-anchor="middle" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#808080">Full Stack Developer · PHP · MySQL · Tailwind CSS</text>
+<text x="450" y="100" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="12" letter-spacing="2" fill="#4a4a4a">THANKS FOR STOPPING BY</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="t d">
+<title id="t">Contribution snake placeholder</title><desc id="d">Placeholder shown until the GitHub Action generates this graphic.</desc>
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8c8c8c"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.38"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="fadeB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050505" stop-opacity="0"/><stop offset="1" stop-color="#050505" stop-opacity="1"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="898" height="148" rx="20" fill="#0b0b0b" stroke="#3a3a3a" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="40" y="71" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="30" fill="#fafafa">Contribution snake</text>
+<text x="40" y="99" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#808080">Waiting for the first run. Actions → Profile-Graphics → Run workflow.</text>
+<circle cx="856" cy="34" r="4" fill="#fafafa"><animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+</svg>
