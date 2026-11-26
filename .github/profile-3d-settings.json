@@ -1,13 +1,13 @@
 [
   {
     "type": "normal",
-    "fileName": "cyber.svg",
-    "backgroundColor": "#0b0b0d",
-    "foregroundColor": "#e8e8ea",
-    "strongColor": "#fcee09",
-    "weakColor": "#8d8d98",
-    "radarColor": "#00f0ff",
+    "fileName": "mono.svg",
+    "backgroundColor": "#050505",
+    "foregroundColor": "#fafafa",
+    "strongColor": "#ffffff",
+    "weakColor": "#808080",
+    "radarColor": "#b8b8b8",
     "growingAnimation": true,
-    "contribColors": ["#1a1a1f", "#4a4500", "#8d8300", "#cfc200", "#fcee09"]
+    "contribColors": ["#1a1a1a", "#3d3d3d", "#6e6e6e", "#a8a8a8", "#f5f5f5"]
   }
 ]

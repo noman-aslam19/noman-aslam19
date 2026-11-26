@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48" role="img" aria-labelledby="t d">
+<title id="t">OPEN_CHANNEL</title><desc id="d">Section label: OPEN_CHANNEL</desc>
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8c8c8c"/></linearGradient>
+  <linearGradient id="lineFade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3a3a3a"/><stop offset="1" stop-color="#3a3a3a" stop-opacity="0"/></linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.22"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0" r="0.85"><stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="8" width="212" height="32" rx="16.0" fill="none" stroke="#3a3a3a"/><circle cx="17" cy="24.0" r="3" fill="#fafafa"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle><text x="31" y="28.9" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" letter-spacing="3" fill="#fafafa">OPEN_CHANNEL</text>
+<rect x="230" y="23.5" width="430" height="1" fill="url(#lineFade)"/>
+<text x="894" y="29" text-anchor="end" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#808080">// say hi</text>
+</svg>
