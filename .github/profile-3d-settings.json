@@ -1,0 +1,13 @@
+[
+  {
+    "type": "normal",
+    "fileName": "cyber.svg",
+    "backgroundColor": "#0b0b0d",
+    "foregroundColor": "#e8e8ea",
+    "strongColor": "#fcee09",
+    "weakColor": "#8d8d98",
+    "radarColor": "#00f0ff",
+    "growingAnimation": true,
+    "contribColors": ["#1a1a1f", "#4a4500", "#8d8300", "#cfc200", "#fcee09"]
+  }
+]

@@ -19,23 +19,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Snake that eats your contribution graph (Platane/snk)
+      # Snake that eats the contribution graph (Platane/snk)
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/snake.svg
-            assets/snake-dark.svg?color_snake=#a78bfa&color_dots=#161b22,#0e4f5c,#0891b2,#22d3ee,#a5f3fc
+            assets/snake-dark.svg?color_snake=#ff003c&color_dots=#1a1a1f,#4a4500,#8d8300,#cfc200,#fcee09
+            assets/snake.svg?color_snake=#d4002f&color_dots=#ececec,#e8df7a,#cfc200,#9c9100,#6b6300
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3D contribution calendar (yoshi389111/github-profile-3d-contrib)
+      # 3D contribution calendar, styled by .github/profile-3d-settings.json
       - name: Generate 3D contribution graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-settings.json
 
       - name: Commit generated images
         run: |
