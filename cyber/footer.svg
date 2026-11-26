@@ -14,8 +14,8 @@
   <text x="450" y="70" fill="#00f0ff" fill-opacity="0.8">END OF TRANSMISSION<animateTransform attributeName="transform" type="translate" values="-3 0;-3 0;-9 1;5 -1;-3 0;-3 0" keyTimes="0;0.5;0.52;0.55;0.58;1" dur="4s" calcMode="discrete" repeatCount="indefinite"/></text>
   <text x="450" y="70" fill="#e8e8ea">END OF TRANSMISSION</text>
 </g>
-<text x="450" y="96" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="12" letter-spacing="3" fill="#8d8d98">// thanks for stopping by</text>
-<g transform="rotate(-4 770 100)"><text x="716" y="104" font-family="'Segoe Print','Bradley Hand','Chalkboard SE','Comic Sans MS',cursive" font-size="24" fill="#00f0ff">— noman</text></g>
+<text x="450" y="96" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="13" letter-spacing="3" fill="#8d8d98">// thanks for stopping by</text>
+<g transform="rotate(-4 770 100)"><text x="716" y="104" font-family="'Segoe Print','Bradley Hand','Chalkboard SE','Comic Sans MS',cursive" font-size="26" fill="#00f0ff">— noman</text></g>
 <rect x="0" y="130" width="900" height="12" fill="url(#haz)"/>
 
 </svg>

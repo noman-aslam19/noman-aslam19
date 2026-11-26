@@ -10,9 +10,9 @@
 <rect width="900" height="400" fill="#0b0b0d"/>
 <polygon points="54,24 888,24 888,358 858,388 24,388 24,54" fill="none" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.55"/>
 <polygon points="48,18 882,18 882,352 852,382 18,382 18,48" fill="none" stroke="#fcee09" stroke-width="2.5"/>
-<polygon points="44,6 262,6 278,30 44,30" fill="#fcee09"/><text x="58" y="24" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-weight="700" font-size="13" letter-spacing="2" fill="#0b0b0d">SYS://NOMAN</text>
+<polygon points="44,6 262,6 278,30 44,30" fill="#fcee09"/><text x="58" y="24" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-weight="700" font-size="14" letter-spacing="2" fill="#0b0b0d">SYS://NOMAN</text>
 <rect x="728" y="9" width="136" height="20" fill="#0b0b0d"/>
-<text x="860" y="25" text-anchor="end" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="12" letter-spacing="2" fill="#e8e8ea"><tspan fill="#ff003c">●<animate attributeName="fill-opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></tspan> ONLINE</text>
+<text x="860" y="25" text-anchor="end" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#e8e8ea"><tspan fill="#ff003c">●<animate attributeName="fill-opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></tspan> ONLINE</text>
 <rect x="52" y="70" width="34" height="3" fill="#fcee09"/>
 <text x="98" y="78" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="16" letter-spacing="13" fill="#e8e8ea" fill-opacity="0.9">MUHAMMAD</text>
 <clipPath id="band"><rect x="40" y="132" width="540" height="22"/></clipPath>
@@ -40,10 +40,10 @@
 <circle cx="810" cy="106" r="3.5" fill="#ff003c"><animate attributeName="opacity" values="1;0.15;1" dur="2s" repeatCount="indefinite"/></circle>
 <circle cx="738" cy="180" r="3" fill="#fcee09"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
 <circle cx="794" cy="202" r="2.5" fill="#00f0ff"><animate attributeName="opacity" values="1;0.2;1" dur="1.7s" repeatCount="indefinite"/></circle>
-<text x="772" y="242" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="11" letter-spacing="3" fill="#00f0ff">SCANNING...<animate attributeName="fill-opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></text>
-<g transform="rotate(-4 600 316)"><text x="560" y="322" font-family="'Segoe Print','Bradley Hand','Chalkboard SE','Comic Sans MS',cursive" font-size="26" fill="#e8e8ea">hi. i build stuff.</text></g>
-<path d="M556 306 C 546 294, 540 282, 530 268 M530 268 l2 13 M530 268 l12 -4" fill="none" stroke="#e8e8ea" stroke-width="2" stroke-linecap="round"/>
+<text x="772" y="242" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="12" letter-spacing="3" fill="#00f0ff">SCANNING...<animate attributeName="fill-opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></text>
+<g transform="rotate(-4 650 316)"><text x="610" y="322" font-family="'Segoe Print','Bradley Hand','Chalkboard SE','Comic Sans MS',cursive" font-size="26" fill="#e8e8ea">hi. i build stuff.</text></g>
+<path d="M606 306 C 596 294, 590 282, 580 270 M580 270 l2 13 M580 270 l12 -4" fill="none" stroke="#e8e8ea" stroke-width="2" stroke-linecap="round"/>
 <rect x="52" y="362" width="300" height="12" fill="url(#haz)"/>
-<text x="366" y="372" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="11" letter-spacing="2" fill="#fcee09">CAUTION // CODE IN PROGRESS</text>
-<rect width="900" height="400" fill="url(#vig)"/><rect width="900" height="400" fill="url(#scan)"/><rect width="900" height="400" filter="url(#noise)" opacity="0.06"/>
+<text x="366" y="372" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="12" letter-spacing="2" fill="#fcee09">CAUTION // CODE IN PROGRESS</text>
+<rect width="900" height="400" fill="url(#vig)"/><rect width="900" height="400" fill="url(#scan)"/>
 </svg>

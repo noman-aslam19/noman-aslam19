@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48" role="img" aria-labelledby="t d">
-<title id="t">OPEN_CHANNEL</title><desc id="d">Section label: OPEN_CHANNEL</desc>
+<title id="t">ACTIVITY_LOG</title><desc id="d">Section label: ACTIVITY_LOG</desc>
 <defs>
   <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#ffffff" opacity="0.05"/></pattern>
   <pattern id="haz" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="11" height="22" fill="#fcee09"/><rect x="11" width="11" height="22" fill="#0b0b0d"/></pattern>
@@ -9,9 +9,9 @@
 </defs>
 
 <polygon points="0,6 236,6 252,30 252,42 0,42" fill="#fcee09"/>
-<text x="16" y="35" font-family="Impact,'Haettenschweiler','Arial Narrow Bold',sans-serif" font-size="26" textLength="192" lengthAdjust="spacingAndGlyphs" fill="#0b0b0d">OPEN_CHANNEL</text>
+<text x="16" y="35" font-family="Impact,'Haettenschweiler','Arial Narrow Bold',sans-serif" font-size="26" textLength="192" lengthAdjust="spacingAndGlyphs" fill="#0b0b0d">ACTIVITY_LOG</text>
 <rect x="258" y="24" width="2" height="2" fill="#ff003c"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
 <rect x="256" y="17" width="2" height="18" fill="#8d8d98"/><rect x="274" y="22" width="2" height="8" fill="#2b2b32"/><rect x="292" y="22" width="2" height="8" fill="#2b2b32"/><rect x="310" y="22" width="2" height="8" fill="#2b2b32"/><rect x="328" y="17" width="2" height="18" fill="#8d8d98"/><rect x="346" y="22" width="2" height="8" fill="#2b2b32"/><rect x="364" y="22" width="2" height="8" fill="#2b2b32"/><rect x="382" y="22" width="2" height="8" fill="#2b2b32"/><rect x="400" y="17" width="2" height="18" fill="#8d8d98"/><rect x="418" y="22" width="2" height="8" fill="#2b2b32"/><rect x="436" y="22" width="2" height="8" fill="#2b2b32"/><rect x="454" y="22" width="2" height="8" fill="#2b2b32"/><rect x="472" y="17" width="2" height="18" fill="#8d8d98"/><rect x="490" y="22" width="2" height="8" fill="#2b2b32"/><rect x="508" y="22" width="2" height="8" fill="#2b2b32"/><rect x="526" y="22" width="2" height="8" fill="#2b2b32"/><rect x="544" y="17" width="2" height="18" fill="#8d8d98"/><rect x="562" y="22" width="2" height="8" fill="#2b2b32"/><rect x="580" y="22" width="2" height="8" fill="#2b2b32"/><rect x="598" y="22" width="2" height="8" fill="#2b2b32"/><rect x="616" y="17" width="2" height="18" fill="#8d8d98"/><rect x="634" y="22" width="2" height="8" fill="#2b2b32"/>
-<text x="894" y="31" text-anchor="end" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="12" letter-spacing="2" fill="#8d8d98">// say hi</text>
+<text x="894" y="31" text-anchor="end" font-family="'Cascadia Code','Fira Code',Consolas,Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#8d8d98">// live from github</text>
 
 </svg>
